@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+padding:0;
+margin:0;
+}
+a, img{
+outline:medium none;
+border:none;
+}
+/*
+miscleaneous css
+*/
+.clear_b{
+clear:both;
+}
+
+select,form input[type="text"],form input[type="password"]{
+border:1px solid #c65454;
+height:30px;
+font-size:15px;
+color:#336a33;
+padding:0 5px;
+}
+
+select{
+padding:0px;
+}
+
+form input[type="submit"]{
+background: url("../images/sprite.png") no-repeat scroll 0 0;
+width:123px;
+height:40px;
+border:none;
+outline:medium none;
+cursor:pointer;
+}
+form input[type="submit"].clear_button{
+background: url("../images/sprite.png") no-repeat scroll 0 -43px;
+}
+
+label{
+color:#ad6416;
+font-size:15px;
+}
+
+table tr >td{
+padding-right:20px;
+}
+
+
+/*
+template css
+*/
+body			{ 
+background:teal;
+font-family:arial;
+font-size:13px;
+line-height:18px;
+}
+
+#header			{
+background:url(../images/green_03.png) repeat-x #060;
+height:100px;
+}
+
+.wrapper-logo	{
+width:1300px;
+margin:auto;
+}
+
+.nav-wrapper{
+background:url(../images/green_03.png) repeat-x #060;
+text-align:center;
+font-family:Arial;
+font-size:16px;
+}
+.wrapper-nav	{
+width:1000px;
+margin:auto;
+}
+
+.wrapper-nav ul {
+list-style:none;
+}
+
+.wrapper-nav ul li {
+float:left;
+padding:10px;
+color:#68571b;
+}
+
+.wrapper-nav ul li a {
+text-decoration:none;
+color:#68571b;
+}
+
+.wrapper-nav ul li a:hover, .wrapper-nav a.active {
+color:#337033;
+text-decoration:none;
+}
+
+#content {
+background:#fdfdf0;
+}
+
+.content-nav {
+padding-top:50px;
+width:1000px;
+margin:auto;
+min-height:430px;
+text-align: center;
+}
+
+.side-wrap {
+background:#fef1c5;
+width:340px;
+float:left; 
+padding:30px;
+-moz-border-radius:20px;
+}
+
+.left-content{
+float:left;
+width:540px;
+padding:30px;
+}
+#footer {
+background:url(../images/green_03.png) repeat-x #060;
+font-size:11px;
+}
+
+#footer {
+width:1000px;
+margin:auto;
+color:#FFFFFF;
+background:url(../images/green_03.png) repeat-x #060;
+}
+.footer-nav {
+float:left;
+padding:10px 0;
+width:500px;
+background:url(../images/green_03.png) repeat-x #060;
+}
+
+.footer-nav ul {
+list-style:none;
+}
+
+.footer-nav ul li	{
+float:left;
+color:#FFFFFF;
+}
+
+.footer-nav ul li a {
+padding:0 10px;
+text-decoration:none;
+color:#FFFFFF;
+}
+
+.footer-nav ul li a.active {
+color:#FFFFFF;
+}
+.copy {
+float:right;
+padding:10px 0;
+width:300px;
+}
+
+/*
+content css
+*/
+.pics{
+margin-top:1px;
+margin-left:100px;
+float:left;
+}
+
+.pics2{	
+margin-top:5px;	
+padding-right:-100px;
+padding-bottom:100px;
+}
+
+.pic2{
+margin-top:100px;
+}
+
+.pic4{
+margin-top:100px;
+
+}
+
+.pic-content2{
+margin-top:2px;
+}
+
+#sidebar{
+float:right;
+width:300px;
+height:450px;
+border-left:#009900 solid 1px;
+background:#E8E1D0;
+}
+
+#search{
+padding-top: 5px;
+float: right;
+width: 290px;
+}
+
+#search .submit-form{
+ text-decoration:none;
+ color:#FFF;
+ padding:4px 5px;
+ background:teal;
+}
+
+h1 {
+color:#337c33;
+text-align:center;
+}
+.menu1{
+	float:left;
+	text-align:right;
+	margin-top:-5px;	
+	margin-left:30px;
+}
+
+.data-table{
+border:1px solid #e3c26a;
+}
+.data-table th {
+background: #fae4aa;
+color:#000;
+text-align:left;
+}
+.data-table td , .data-table th{
+padding: 6px 15px;
+}
+
+.data-table2{
+border:1px solid #e3c26a;
+}
+
+.data-table2 th {
+background: #fae4aa;
+color:#000;
+text-align:center;
+}
+
+.data-table2 td , .data-table2 th{
+padding: 6px 45px;
+}
+
+#formonday{
+	border: 1px solid;
+	float: left;
+    width: 164.5px;
+}
+#forwed{
+	border: 1px solid;
+	float: left;
+    width: 164.5px;
+}
+#forfri{
+	border: 1px solid;
+	float: left;
+    width: 164.5px;
+}
+#fortue{
+	border: 1px solid;
+	float: left;
+    width: 164.5px;
+}
+#forthur{
+	border: 1px solid;
+	float: left;
+    width: 165px;
+}
+
+#forsat{
+	border: 1px solid;
+	float:left;
+    width: 165px;
+}
+
+.schedcon{
+	border-bottom: 1px solid;
+}
+#hereinme{
+
+}
+
+.name{
+	text-align:left;
+	color: #337033;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.header{
+	color: #337033;
+    font-family: arial;
+    font-size: 14px;,
+    line-height: 23px;
+}
+.data-content{
+border:none;
+}.data-content td{
+padding: 6px 10px;
+}
+.data-wrapper{
+height: 353px;
+overflow-y: auto;
+border: 1px solid #E3C26A;
+}
+
+@media print {
+	body {
+		background: none;
+	}
+	.nav-wrapper,#footer, button{
+		display: none;
+	}
+
+	td,th{
+	border:1px solid #ccc !important;
+	}.schedcon {
+border-bottom: 1px solid #ccc;
+}
+}
+
